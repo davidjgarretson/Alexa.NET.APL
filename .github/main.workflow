@@ -4,5 +4,5 @@ workflow "Test workflow" {
 }
 
 action "stoiveyp/customghaction@master" {
-  uses = "stoiveyp/customghaction@master"
+  uses = "stoiveyp/customghaction@test"
 }
