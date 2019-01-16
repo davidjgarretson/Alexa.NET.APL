@@ -1,8 +1,8 @@
 workflow "Test workflow" {
   on = "push"
-  resolves = ["Do Nothing"]
+  resolves = ["stoiveyp/CustomGithub@Test"]
 }
 
-action "Do Nothing" {
+action "stoiveyp/CustomGithub@Test" {
   uses = "stoiveyp/CustomGithub@Test"
 }
